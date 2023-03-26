@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DataAccess</id>
+    <version>1.0.0</version>
+    <authors>DataAccess</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Pomelo.EntityFrameworkCore.MySql" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Projects\TodoAPP\DataAccess\bin\Release\net6.0\DataAccess.runtimeconfig.json" target="lib\net6.0\DataAccess.runtimeconfig.json" />
+    <file src="C:\Projects\TodoAPP\DataAccess\bin\Release\net6.0\DataAccess.dll" target="lib\net6.0\DataAccess.dll" />
+  </files>
+</package>
